@@ -28,7 +28,7 @@ namespace TicTacToe
             }
             else
             {
-                app.UseExceptionHandler("~Views/Error");
+                app.UseExceptionHandler("/Home/Error");
             }
 
             app.UseStaticFiles(); //enable the use of static content to use HTML, CSS, Javascript, images
